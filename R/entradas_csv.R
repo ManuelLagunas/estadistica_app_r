@@ -67,7 +67,11 @@ leer_csv <- function(ruta) {
   }
 
   tabla <- tryCatch(
-    utils::read.csv(text = texto, sep = detectar_separador(texto), check.names = FALSE),
+    utils::read.csv(
+      text = texto, sep = detectar_separador(texto), check.names = FALSE,
+      # Las celdas vacías cuentan como dato faltante, igual que en pandas.
+      na.strings = c("", "NA")
+    ),
     error = function(e) {
       error_estadistica("El archivo está vacío o no tiene formato CSV válido")
     }

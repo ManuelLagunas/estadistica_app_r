@@ -1,0 +1,341 @@
+version = 3
+source_date_epoch = 1787981891
+
+[snapshot]
+id = "texmf-2025.2"
+root_digest = "sha256:de4cb2e0da7c123067d86fd5ceae67145fb01b99697781ba5afc7126128cc6b9"
+
+[toolchain]
+release = "volt-0.1.0-dev"
+bundles = {  }
+
+[project]
+schema = 1
+distribution = "texlive"
+release = "2026"
+channel = "stable"
+source_dir = "."
+extra_paths = []
+out_dir = "build"
+
+[output]
+name = "main"
+root = "main.tex"
+type = "pdf"
+engine = "pdftex"
+tex_format = "latex"
+bibliography = "none"
+index = "none"
+sync = ["synctex"]
+shell_escape = false
+tools = []
+reproducible = true
+runtimes = ["native-x86_64-linux", "browser"]
+
+[[file]]
+path = "texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc"
+digest = "sha256:558da5de87db45ed719dda9c679e6b164d520b21d9100357dcf17124291ed97c"
+
+[[file]]
+path = "texmf-dist/fonts/map/fontname/texfonts.map"
+digest = "sha256:d9693993efdc7d0b9ab3df777589995d43e24eeae95f12b6a230a19caadeaa42"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm"
+digest = "sha256:2dff1d6a6df24e5dc7b7bd7af9c6d65160bdb39a2a6acf18b33a71d962520118"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm"
+digest = "sha256:373172fe340e4aede5129b89d65f576bfb1fe6932bd55c38f60bcaa84f3d1188"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm"
+digest = "sha256:3f56ab22f7fc6a015813976c6c6cc2fd55736bbaec4958a4562e10719fa18062"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmbx12.tfm"
+digest = "sha256:0eb2f13840155007c2d3c59b074322a3aa7358b9643aa314f3146468ae7f0806"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmex10.tfm"
+digest = "sha256:0890bccea1dd4d27f001ac30e86c63af35bc803e0557c35aafb1903c8d208e92"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmmi10.tfm"
+digest = "sha256:e442c5487f84df70218ff37f775c87060856f5b6e04c011b6cadbbadfcf46645"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmmi12.tfm"
+digest = "sha256:79563547084d85388e6909888f9fa7f5cad33bdda44ca6b25b362e1d301db539"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmmi6.tfm"
+digest = "sha256:ab6ecb4aaba9ca1b4259b1d1f64309a785bbaeb09183fd79a066b7764a448a28"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmmi8.tfm"
+digest = "sha256:65af8c1e162a952cab8e93c834fcf43ce09b508e6c16e512ebb673cd850b0d41"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmr10.tfm"
+digest = "sha256:87f2d8981927644cbecaf3d639e96e348ea4e7be49d8804468bd8ba9ff3f5244"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmr12.tfm"
+digest = "sha256:1ce8af37ed38e93940829d3540e494eaaddc5201758d036b9074467e70a738dc"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmr17.tfm"
+digest = "sha256:86b6e8a52aae6ad1655e32099e12bd2904b158aba4c8afb74143266d2d9cd18f"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmr6.tfm"
+digest = "sha256:106afa9172f0c00e58b9f5cbc72b302a18aaeeaddf50caca145af9cc0b81afd2"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmr8.tfm"
+digest = "sha256:4c5ae243ac0aa254e7ec7f0602cc2a4351e5011ff0cb6dc150a5f6de19585de6"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmsy10.tfm"
+digest = "sha256:0ca13d421ac7133271aed7c935099ecf3d1d08ac9e15f81acb34a16564ab8a46"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmsy6.tfm"
+digest = "sha256:137eb9f38f661c66309614066a7b5d63d8969d33aba0c9efee9f844a4ce65b50"
+
+[[file]]
+path = "texmf-dist/fonts/tfm/public/cm/cmsy8.tfm"
+digest = "sha256:84c37f07ca360c41ad0a0fba7387d279d72457c69bdae03653208c683d8de6bc"
+
+[[file]]
+path = "texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb"
+digest = "sha256:c838238f31d86a9f198873dfaf501601a4fc966845b9c59e7dc251c4e85d1f1f"
+
+[[file]]
+path = "texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb"
+digest = "sha256:e3661061e8aa474d6de5ffa916edceb0e3d8b998862018c147f0357fce00bcd7"
+
+[[file]]
+path = "texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb"
+digest = "sha256:fdcede8794018df5f2b58f0905fb20a2b418ed8f67b73ee12445855dfbe5b1be"
+
+[[file]]
+path = "texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb"
+digest = "sha256:9b58bfa828b9553b7c8331cf26c45443b836f8aab62e820b40a5b65c8531dd42"
+
+[[file]]
+path = "texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb"
+digest = "sha256:465827b4702e12f7deea159c8084753ffc27998963de516e490bd7bd5bed41dd"
+
+[[file]]
+path = "texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb"
+digest = "sha256:8150cbfac5cfe53040327df171c3059f10730b32cabf2504b01713d639a11feb"
+
+[[file]]
+path = "texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb"
+digest = "sha256:3f353abccd39dc18dd1e9356092a70548ddcdc3bd9496e597a4792eeef4dda5e"
+
+[[file]]
+path = "texmf-dist/ls-R"
+digest = "sha256:a19d58ae6a1fc91ccdb8b1854256b66c011b9e1156695b578826cfff3347ab10"
+
+[[file]]
+path = "texmf-dist/tex/context/base/mkii/supp-pdf.mkii"
+digest = "sha256:5dd3675b88c7b61d3703e6bf35ed75623acc6b163dff7b1477b485cee8ad71cb"
+
+[[file]]
+path = "texmf-dist/tex/generic/bigintcalc/bigintcalc.sty"
+digest = "sha256:050f2ad3a3671a1f4f9bcf97784836301bc751507e7ada546632379406aea103"
+
+[[file]]
+path = "texmf-dist/tex/generic/bitset/bitset.sty"
+digest = "sha256:af5c7196c69dc9d28225189169b60c9b9039125bc1756c04d54886f0a3e1891e"
+
+[[file]]
+path = "texmf-dist/tex/generic/gettitlestring/gettitlestring.sty"
+digest = "sha256:26ab10fd43fd5a90f98bcbed3a99978808da8878eb73835db4e0346371aee41e"
+
+[[file]]
+path = "texmf-dist/tex/generic/iftex/iftex.sty"
+digest = "sha256:0dc0cefe2131f82330a3b8e62034c184455329d7d9bb94abe21e740821630381"
+
+[[file]]
+path = "texmf-dist/tex/generic/iftex/ifvtex.sty"
+digest = "sha256:1138730b9ad7d9f664b4760a4ea0ae0945afd21c006b76b67e623e863bbf3756"
+
+[[file]]
+path = "texmf-dist/tex/generic/infwarerr/infwarerr.sty"
+digest = "sha256:8c3e23b8bb7d940ff26cb0cf96e0151f540acf55020dc3c1aa8bcdb2eb66305c"
+
+[[file]]
+path = "texmf-dist/tex/generic/intcalc/intcalc.sty"
+digest = "sha256:1343ba1b10b245bfd199c22947249af1d756808690c7811c90f07fe0a3772080"
+
+[[file]]
+path = "texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty"
+digest = "sha256:c42f0c2628dc5fbd95b535cf8cd3cc964347653c099d38c0d416f896d84e8240"
+
+[[file]]
+path = "texmf-dist/tex/generic/ltxcmds/ltxcmds.sty"
+digest = "sha256:8fea89995d37ba4c69137186faafc589c470edcc5026d8a31aadbe5cef47dcb4"
+
+[[file]]
+path = "texmf-dist/tex/generic/pdfescape/pdfescape.sty"
+digest = "sha256:b3f0e56366c11b85dae521f9a48a6fd415dec1ce8c83152fde813a9f64445b49"
+
+[[file]]
+path = "texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty"
+digest = "sha256:2df7e0bd148c99d8097352b8ac9948dccf91d61ba360dcf43f82206933b6045b"
+
+[[file]]
+path = "texmf-dist/tex/generic/stringenc/stringenc.sty"
+digest = "sha256:b134a7bba648a6987afc83ddfb6a3fcdad43bcae6b616e533eb484306d56ac45"
+
+[[file]]
+path = "texmf-dist/tex/generic/uniquecounter/uniquecounter.sty"
+digest = "sha256:9d11c81501953d689787ff14c073d2f1eda5874068db9e882b8dbbf9a9d863b0"
+
+[[file]]
+path = "texmf-dist/tex/latex/amsmath/amsbsy.sty"
+digest = "sha256:c09b1b14dfe8a81b6791673b3bc5a7fd8b794fb063b6e8b5ce79fc28c7e59c8c"
+
+[[file]]
+path = "texmf-dist/tex/latex/amsmath/amsgen.sty"
+digest = "sha256:e7ef677a56e22d8da915e613c65fe2d4c2fe8744ffb283c2ccfdfc066e45e158"
+
+[[file]]
+path = "texmf-dist/tex/latex/amsmath/amsmath.sty"
+digest = "sha256:4c0bfd7d67ea18214810a21244f8426da40d04af5bb90ed201b85cc5e211d321"
+
+[[file]]
+path = "texmf-dist/tex/latex/amsmath/amsopn.sty"
+digest = "sha256:c50239a5acc1037ff4df482878e5546be3cd9b8ac725151bc14748a103d800a8"
+
+[[file]]
+path = "texmf-dist/tex/latex/amsmath/amstext.sty"
+digest = "sha256:7a6d33e95e168f90cec6d4172aeae7da885924a8f587ccc11817e1dab4d50ba9"
+
+[[file]]
+path = "texmf-dist/tex/latex/base/article.cls"
+digest = "sha256:f9c8770a909e5b6526eb72284e457cd379b9bedbf3b508a96bd7f922d4cb24ec"
+
+[[file]]
+path = "texmf-dist/tex/latex/base/size11.clo"
+digest = "sha256:f2a208d3ff388ce24290aac6a36c9edb20e10bc7ea5b5a6222e965b91fc4132d"
+
+[[file]]
+path = "texmf-dist/tex/latex/booktabs/booktabs.sty"
+digest = "sha256:3fe694a5406f84847143e56ba1841385364277cfe7694a9f4bc0072ca8656abc"
+
+[[file]]
+path = "texmf-dist/tex/latex/enumitem/enumitem.sty"
+digest = "sha256:628ef5b6916c682f586a066e735ceb6191e73fe3216dfb2fb4aa8e2f4c819dba"
+
+[[file]]
+path = "texmf-dist/tex/latex/etoolbox/etoolbox.sty"
+digest = "sha256:e48026fcea59b4906d1fd47bde658cb5caf0a7928c45a45ea563b18d5b40ebd4"
+
+[[file]]
+path = "texmf-dist/tex/latex/fancyhdr/fancyhdr.sty"
+digest = "sha256:9130c52f91087abc6d223164ffa587e207e3257fcbcd069ef09ecb5391043f14"
+
+[[file]]
+path = "texmf-dist/tex/latex/geometry/geometry.sty"
+digest = "sha256:d5d36ad74051ad36288242b51438e2d9a5db2bd6c063b9b5704d0931fbc9f439"
+
+[[file]]
+path = "texmf-dist/tex/latex/graphics-cfg/color.cfg"
+digest = "sha256:a3529ccdadc8248b4c5d7c34ceea53bdc1509b54f18a192ad51b924bd297d8df"
+
+[[file]]
+path = "texmf-dist/tex/latex/graphics-def/pdftex.def"
+digest = "sha256:38361aed5c3534a46d63cd3cfd5cbb6367645c1d9b095cd2e45fd922ce821853"
+
+[[file]]
+path = "texmf-dist/tex/latex/graphics/color.sty"
+digest = "sha256:96ce1dd3c3b57440c5a040f3ee31b2741d29fed7cd1c388b49cf5a5c668abb4a"
+
+[[file]]
+path = "texmf-dist/tex/latex/graphics/keyval.sty"
+digest = "sha256:d3faa310a1e4485b8efb1ed3ae8b11f9552e70b630dc35290a7aabdcd064b09a"
+
+[[file]]
+path = "texmf-dist/tex/latex/graphics/mathcolor.ltx"
+digest = "sha256:0804bb6e9e1eeeaeda861f29206d308194ea7cc846e38abaa344cdefa1d408cd"
+
+[[file]]
+path = "texmf-dist/tex/latex/hycolor/hycolor.sty"
+digest = "sha256:8acaa03eda19a8158780356701e905e354e1dc47dc736e6e26fc860c12a15e14"
+
+[[file]]
+path = "texmf-dist/tex/latex/hyperref/hpdftex.def"
+digest = "sha256:586ebf72aa9ef78a8cf7b44060977700f1a749d0d5beca276d2c0fe028430d2f"
+
+[[file]]
+path = "texmf-dist/tex/latex/hyperref/hyperref.sty"
+digest = "sha256:16f517b35f656dc26b6917f2bbb31e3af0ccd734806b1ce0ba70efc3e7ffb41c"
+
+[[file]]
+path = "texmf-dist/tex/latex/hyperref/nameref.sty"
+digest = "sha256:567afe6847e20afcd0cbc5898274b815055cf96db3bee2fc74b97b310d17f602"
+
+[[file]]
+path = "texmf-dist/tex/latex/hyperref/pd1enc.def"
+digest = "sha256:ff70c355a16fe9c4331f46a606f7180233e83b88bb4b3f685cbe7cb43bafa59f"
+
+[[file]]
+path = "texmf-dist/tex/latex/hyperref/puenc.def"
+digest = "sha256:7b135494506277e77229b64f3b924f7519e0a3929bf42cefa51e782515b1fa4b"
+
+[[file]]
+path = "texmf-dist/tex/latex/kvoptions/kvoptions.sty"
+digest = "sha256:70595629ec990ba8c0b6e6a54afcff2603464e6fce380a54a98549a78d2fc74a"
+
+[[file]]
+path = "texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty"
+digest = "sha256:e3fcf7f3372a27bb478eb9488eca1e25ed382480d02a6898f190bd955388e055"
+
+[[file]]
+path = "texmf-dist/tex/latex/l3backend/l3backend-pdftex.def"
+digest = "sha256:24c194c31928335f4e29eee52bd200efac11263d4b69ef7350ef989e55ffe111"
+
+[[file]]
+path = "texmf-dist/tex/latex/refcount/refcount.sty"
+digest = "sha256:1bd5d42025520bef74f8808af99cf3f3be7d2e3774b9931bf85c11ba81bb6cab"
+
+[[file]]
+path = "texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty"
+digest = "sha256:7771d8fb8f76147d1d6fc5b205c8989feb270bafccd6021570cd7e5152ead1d6"
+
+[[file]]
+path = "texmf-dist/tex/latex/siunitx/siunitx.sty"
+digest = "sha256:a27b92e649d442933c6442a1da2eb01589545108d77bea758d12ea8d6f25eba7"
+
+[[file]]
+path = "texmf-dist/tex/latex/tools/array.sty"
+digest = "sha256:537013de60c6606caecfc2eee9b81cd95f093ebb0f99b43277775073f00d9160"
+
+[[file]]
+path = "texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl"
+digest = "sha256:26be1ea694482f1090ce60202899ddd0f971ff13e7d29616a6b2f103605d68f4"
+
+[[file]]
+path = "texmf-dist/tex/latex/translations/translations.sty"
+digest = "sha256:a19cfaa9a53ed715098609223708c9a34f9ed9b8ed726740c907d58c7015d5a0"
+
+[[file]]
+path = "texmf-dist/tex/latex/url/url.sty"
+digest = "sha256:2373f56849ac606473e77053e5c1d14c92aba312b3f684e02a130eaf36f2de47"
+
+[[file]]
+path = "texmf-dist/web2c/texmf.cnf"
+digest = "sha256:13836992830cff05863fd6cbe6ad58dc819d85cafcff61c36df3df244d2cee78"
+
+[[file]]
+path = "texmf-local/ls-R"
+digest = "sha256:d13de77ada7778cf11a14b13febe40e2639b102137c4089228f684b0f552c6e2"
+
+[[file]]
+path = "texmf-var/fonts/map/pdftex/updmap/pdftex.map"
+digest = "sha256:273050039d8499da019d917c3dc78f966ccd56c8e392145db9c10f0df2d00bec"

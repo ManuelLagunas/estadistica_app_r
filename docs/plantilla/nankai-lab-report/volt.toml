@@ -1,0 +1,7 @@
+schema = 1
+
+[environment]
+release = "2026"
+
+[output]
+root = "main.tex"

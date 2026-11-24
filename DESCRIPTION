@@ -16,7 +16,8 @@ Depends:
 Imports:
     bslib,
     plotly,
-    shiny
+    shiny,
+    withr
 Suggests:
     knitr,
     testthat (>= 3.0.0)

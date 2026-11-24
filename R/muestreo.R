@@ -177,7 +177,8 @@ asignar_estratos <- function(datos, columna, n, asignacion = "proporcional",
     desviaciones <- tapply(a_numero(datos[[variable]]), estratos, stats::sd, na.rm = TRUE)
     desviaciones[is.na(desviaciones)] <- 0
 
-    pesos <- tamanos * desviaciones[names(tamanos)]
+    # tapply devuelve un arreglo; as.vector lo deja como vector simple.
+    pesos <- tamanos * as.vector(desviaciones[names(tamanos)])
     if (sum(pesos) == 0) {
       error_estadistica(paste(
         "La asignación de Neyman no aplica: la variable no varía",

@@ -1,0 +1,23 @@
+# ── Sesiones y caché de R ────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# ── renv: la biblioteca se reconstruye con renv::restore() ──
+renv/library/
+renv/local/
+renv/staging/
+
+# ── Reporte: archivos generados por Quarto ───
+docs/reporte.html
+docs/reporte.pdf
+docs/reporte.docx
+docs/reporte_files/
+docs/*.tex
+docs/.quarto/
+
+# ── macOS y editores ─────────────────────────
+.DS_Store
+.vscode/
+.positron/

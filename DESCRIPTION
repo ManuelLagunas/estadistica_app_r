@@ -1,0 +1,24 @@
+Package: estadistica
+Title: Calculadora Estadística
+Version: 0.1.0
+Authors@R:
+    person("Manuel Alejandro", "Lagunas Aragón", role = c("aut", "cre"))
+Description: Medidas descriptivas de una variable, medidas de relación entre
+    variables, tablas de contingencia y técnicas de muestreo, con una
+    aplicación Shiny. Traducción a R del proyecto en Python de la Maestría
+    en Sistemas Computacionales (TecNM, campus Apizaco).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.3)
+Imports:
+    bslib,
+    plotly,
+    shiny
+Suggests:
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

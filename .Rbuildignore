@@ -1,0 +1,7 @@
+^renv$
+^renv\.lock$
+^\.Rprofile$
+^datos_prueba$
+^docs$
+^app\.R$
+^README\.md$
